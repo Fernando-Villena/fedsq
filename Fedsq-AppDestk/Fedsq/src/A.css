@@ -1,0 +1,16 @@
+/* Estilos CSS personalizados en tu hoja de estilos */
+.active-link {
+  background-color: white; /* Fondo blanco para el enlace activo */
+  color: black !important; /* Texto en negro para el enlace activo */
+  margin-right: -600px; /* Extiende el fondo más allá del navbar hacia la derecha */
+  padding: 10px;
+  border-bottom-right-radius: 50px; /* Curvar la esquina inferior derecha */
+  border-bottom-left-radius: 50px; /* Curvar la esquina inferior izquierda */
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%); /* Forma personalizada para la parte final */
+}
+
+.active-link a {
+  color: black !important;
+   /* Cambiar el color del texto del enlace activo */
+}
+

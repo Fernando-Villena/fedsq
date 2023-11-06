@@ -1,0 +1,20 @@
+body {
+    overflow: hidden;
+  }
+
+/* Estilo para la barra de desplazamiento en navegadores basados en Webkit (como Chrome y Safari) */
+::-webkit-scrollbar {
+  width: 6px; /* Cambia el ancho según tu preferencia */
+}
+
+/* Estilo para la parte de desplazamiento en navegadores basados en Webkit */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cambia el color del pulgar (thumb) según tu preferencia */
+  border-radius: 3px; /* Cambia el radio de borde del pulgar */
+}
+
+/* Estilo para la parte de la barra de desplazamiento en navegadores basados en Webkit */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cambia el color de la pista de la barra de desplazamiento según tu preferencia */
+}
+
